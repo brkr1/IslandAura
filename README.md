@@ -47,6 +47,12 @@ Requires [Theos](https://theos.dev). CI builds with GitHub Actions on macOS (see
 make package THEOS_PACKAGE_SCHEME=rootless
 ```
 
+## Support
+
+If you like my tweaks, consider buying me a coffee:
+
+<a href="https://buymeacoffee.com/brkr1" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Credits
 
 The overall multi-process architecture behind Dynamic Island tweaks — and the arm64e ptrauth pitfall above — were learned from [NextUp3](https://github.com/Yves000/NextUp3) and [Crescendo](https://github.com/Yves000/Crescendo), both more mature tweaks doing related things. Color picker via [Alderis](https://github.com/hbang/Alderis).
