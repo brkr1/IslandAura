@@ -2,6 +2,9 @@
 
 A jailbreak tweak that draws a customizable neon aura around the Dynamic Island — and keeps it locked to the island's real shape as it expands and collapses for calls, timers, media, Face ID, and anything else that uses it.
 
+<img width="709" height="157" alt="image" src="https://github.com/user-attachments/assets/b3429b81-e3c8-4f27-8bd0-803ca4749030" />
+
+
 ## Features
 
 - **Live-tracking** — the aura follows the Dynamic Island's actual on-screen size in real time, not a guessed/static shape. Works for any app or system feature that uses the island, not just media playback.
