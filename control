@@ -1,9 +1,11 @@
 Package: com.brkr1.tweaks.islandaura
 Name: Island Aura
-Depends: mobilesubstrate, firmware (>= 16.0), ws.hbang.alderis (>= 1.1)
-Version: 0.1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), ws.hbang.alderis (>= 1.1)
+Version: 0.2
 Architecture: iphoneos-arm
-Description: Draws a customizable neon aura around the Dynamic Island that live-tracks its real size and shape as it expands and collapses. Three styles (Glow, Pulse, Tint), any color.
+Description: Draws a customizable neon aura around the Dynamic Island that live-tracks its real size and shape as it expands and collapses. Three styles (Glow, Pulse, Tint), any color, no respring needed to change settings.
 Maintainer: brkr1
 Author: brkr1
 Section: Tweaks
+Depiction: https://brkr1.github.io/repo/depictions/com.brkr1.tweaks.islandaura/depiction.json
+SileoDepiction: https://brkr1.github.io/repo/depictions/com.brkr1.tweaks.islandaura/depiction.json

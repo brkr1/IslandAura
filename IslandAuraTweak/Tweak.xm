@@ -89,8 +89,8 @@ void lx_startPulseAnimation(void) {
     [lx_islandAuraStrokeLayer addAnimation: strokeBreathe forKey: kLXAuraPulseAnimationKey];
 }
 
-// Glow: bright, thick outline + tight shadow, the original look. Pulse:
-// same outline, but both its shadow and the stroke itself breathe via
+// Glow: bright outline + a slightly wider shadow bloom than the original.
+// Pulse: same outline, but both its shadow and the stroke itself breathe via
 // lx_startPulseAnimation - not just the halo, or the swing barely read as
 // different from Glow. Tint: thin, dim outline behind a solid-ish fill and
 // a wide shadow - a soft color wash instead of a defined edge.
@@ -117,7 +117,7 @@ void lx_applyIslandAuraStyle(void) {
         lx_islandAuraStrokeLayer.fillColor = [UIColor clearColor].CGColor;
         lx_islandAuraStrokeLayer.strokeColor = color.CGColor;
         lx_islandAuraStrokeLayer.lineWidth = 2.5;
-        lx_islandAuraGlowView.layer.shadowRadius = 10.0;
+        lx_islandAuraGlowView.layer.shadowRadius = 12.0;
         lx_islandAuraGlowView.layer.shadowOpacity = 1.0;
     }
 
